@@ -1,0 +1,131 @@
+/* 
+    Created on : Aug 31, 2016, 2:11:39 AM
+    Author     : Pandu
+*/
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.nav{
+    background-color: #ecf0f1;
+    height: auto;
+}
+
+.navbar-logo{
+    color: #6c7680;
+}
+
+.navbar-menu-btn:hover{
+    cursor: pointer;
+    background-color: #6c7680;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+}
+
+@media only screen and (max-width: 450px){
+    .navbar-menu-btn{
+        width: 50px;
+        height: 100%;
+        background-color: #e74c3c;
+        padding: 0 15px 0 13px;
+        font-size: 20px;
+        float: left;  
+    }
+    
+    .navbar-logo{
+        overflow: hidden;
+        padding-left: 10px;
+        width: auto;
+    } 
+    
+    .navbar-logo .web-title{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    
+    .navbar-logo .web-title-icon{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 451px){
+    .navbar-menu-btn{
+        width: 50px;
+        height: 100%;
+        background-color: #e74c3c;
+        padding: 0 15px 0 13px;
+        font-size: 25px;
+        float: left;
+        z-index: 20 !important;    
+    }
+    
+    .navbar-logo{
+        overflow: hidden;
+        padding-left: 20px;
+        width: auto;
+        height: 100%;
+        z-index: 19;
+    }
+    
+    .navbar-logo .web-title{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .navbar-logo .web-title-icon{
+        font-size: 25px;
+    }
+}
+
+.main-frame{
+    width: 100%;
+    height: 100%;
+    margin-top: -59px;
+    position: absolute;
+    z-index: -10;
+    border:none;
+}
+
+.navigation-row{
+    margin-top: 71px;
+    font-size: 20px;
+    color: #7f8c8d;
+}
+
+.navigation-section{
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 601px){
+    .main-frame{
+        width: 100%;
+        height: 100%;
+        margin-top: -64px;
+        position: absolute;
+        z-index: -10;
+        border:none;
+    }
+    
+    .navigation-row{
+        margin-top: 75px;
+        font-size: 25px;
+    }
+    
+    .navigation-section{
+        padding-left: 65px;
+    }
+}
+   
+.navigation-section a{
+    color: #7f8c8d;
+}
+
+.navigation-section a:hover{
+    cursor: pointer;
+    color: #3498db;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+}
+
+
