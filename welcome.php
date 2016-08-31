@@ -16,7 +16,6 @@ dependencies();
 <div class="col s12 m12 l12">
 <div class="navigation-section">
     <a title="Beranda" class="fa fa-home" style="float: left;"></a>
-    <span style="font-size: 13px; width: 100%; float: left;"></span>
 </div>    
 </div>
 </div>
